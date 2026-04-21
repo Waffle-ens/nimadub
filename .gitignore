@@ -1,0 +1,17 @@
+node_modules/
+.next/
+dist/
+build/
+.env.local
+.env*.local
+.DS_Store
+*.pem
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.prisma/
+prisma/dev.db
+prisma/dev.db-journal
+.claude/

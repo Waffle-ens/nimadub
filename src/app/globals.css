@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0 box-border;
+}
+
+html,
+body {
+  @apply h-full w-full;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+a {
+  @apply text-blue-600 hover:underline;
+}
+
+button {
+  @apply transition-colors;
+}
+
+input,
+textarea {
+  @apply border border-gray-300 rounded px-3 py-2;
+}
+
+select {
+  @apply border border-gray-300 rounded px-3 py-2;
+}
